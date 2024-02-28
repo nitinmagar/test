@@ -1,0 +1,58 @@
+.container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 500px;
+    height:800px;
+    border: 1px solid red;
+    border-radius: 5px;
+    background-color: azure;
+  }
+  
+  .box {
+    width: 200px;
+    height: 100px;
+    border: 1px solid blue;
+    border-radius: 5px;
+    margin: 10px;
+    text-align: center;
+    cursor: pointer;
+  }
+  
+  .options {
+    display: none;
+  }
+  
+  .color-option, .size-option {
+    cursor: pointer;
+  }
+  
+  .red {
+    background-color: red;
+  }
+  
+  .green {
+    background-color: green;
+  }
+  
+  .blue {
+    background-color: blue;
+  }
+  
+  .small {
+    font-size: 12px;
+  }
+  
+  .medium {
+    font-size: 16px;
+  }
+  
+  .large {
+    font-size: 20px;
+  }
+  
+  .expanded {
+    height: auto;
+  }
+  
